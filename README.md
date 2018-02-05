@@ -6,9 +6,9 @@ CREATE TABLE movie (
   name VARCHAR(50)
   );
 
-INSERT INTO TABLE movie (name) VALUES ('El Rey Leon');
+INSERT INTO movie (name) VALUES ('El Rey Leon');
 
-INSERT INTO TABLE movie (name) VALUES ('Terminator 2');
+INSERT INTO movie (name) VALUES ('Terminator 2');
 
 ALTER TABLE movie ADD COLUMN year INTEGER;
 
